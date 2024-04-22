@@ -1,16 +1,13 @@
 package org.example;
 
 
-
-
-
 public class Books {
     long idNumber;
     String isbnNumber;
     String title;
     boolean isCheckedOut;
     String isCheckedOutTo;
-String borrower;
+
     public Books(long idNumber, String isbnNumber, String title, boolean isCheckedOut, String isCheckedOutTo) {
         this.idNumber = idNumber;
         this.isbnNumber = isbnNumber;
@@ -19,15 +16,6 @@ String borrower;
         this.isCheckedOutTo = isCheckedOutTo;
     }
 
-    public void checkOut(String borrower){
-        isCheckedOut = true;
-        this.borrower = borrower;
-    }
-
-    public void checkIn(){
-        isCheckedOut = false;
-        borrower = " ";
-    }
     public long getIdNumber() {
         return idNumber;
     }
