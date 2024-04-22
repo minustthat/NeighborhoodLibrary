@@ -5,7 +5,7 @@ Here is a glimpse of the methods that make these actions possible: ![Screenshot 
 
 The welcome screen will reappear after each action to make sure you stay until you've done all that you wish, and pressing the (4) choice will allow you to close the program, which simulates you leaving the library. 
  
-Home screen : ![](/Users/nolimit/Desktop/GitProjYU/NeighborhoodLibrary/Images /Screenshot 2024-04-22 at 16.35.16.png)
+Home screen : ![Uploading Screenshot 2024-04-22 at 16.35.16.png…]()
 
 Checking in a book will require a name and title, and will notify you that the book is now checked out. 
 
